@@ -1,5 +1,5 @@
 import React from "react";
-
+import bannerImg from '../assets/banner-stack.png';
 export const Hero: React.FC = () => {
     return (
         <section className="max-w-7xl mx-auto px-4 py-16 flex flex-col md:flex-row items-center justify-between gap-10">
@@ -29,11 +29,7 @@ export const Hero: React.FC = () => {
             </div>
             <div className="flex-1 flex justify-center">
                 <div className="w-100 h-100 rounded-2xl flex items-center justify-center p-6 ">
-                    <img
-                        src="/assets/banner-stack.png"
-                        alt="Hero Banner"
-                        className="w-full h-full object-contain"
-                    />
+                    <img src={bannerImg} alt="Hero Banner" className="w-full h-auto" />
                 </div>
             </div>
         </section>
