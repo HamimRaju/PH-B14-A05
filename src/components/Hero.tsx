@@ -28,9 +28,9 @@ export const Hero: React.FC = () => {
                 </div>
             </div>
             <div className="flex-1 flex justify-center">
-                <div className="w-80 h-80 rounded-2xl bg-gradient-to-tr from-orange-100 via-pink-100 to-purple-100 flex items-center justify-center p-6 shadow-xl">
+                <div className="w-100 h-100 rounded-2xl flex items-center justify-center p-6 ">
                     <img
-                        src="https://illustrations.popsy.co/white/web-design.svg"
+                        src="assets/banner-stack.png"
                         alt="Hero Banner"
                         className="w-full h-full object-contain"
                     />
