@@ -30,7 +30,7 @@ export const Hero: React.FC = () => {
             <div className="flex-1 flex justify-center">
                 <div className="w-100 h-100 rounded-2xl flex items-center justify-center p-6 ">
                     <img
-                        src="assets/banner-stack.png"
+                        src="/assets/banner-stack.png"
                         alt="Hero Banner"
                         className="w-full h-full object-contain"
                     />
