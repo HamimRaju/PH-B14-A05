@@ -1,5 +1,4 @@
 import React from 'react';
-import bannerImg from '../assets/banner-stack.png';
 
 export const Hero: React.FC = () => {
   return (
@@ -33,7 +32,7 @@ export const Hero: React.FC = () => {
       {/* Right Banner Image */}
       <div className="flex-1 flex justify-center w-full">
         <img
-          src={bannerImg}
+          src="assets/banner-stack.png"
           alt="Hero Banner"
           className="w-full max-w-md h-auto object-contain drop-shadow-sm"
         />
