@@ -1,4 +1,5 @@
 import React from 'react';
+import bannerImg from '../assets/banner-stack.png';
 
 export const Hero: React.FC = () => {
   return (
@@ -7,7 +8,7 @@ export const Hero: React.FC = () => {
       <div className="flex-1 space-y-6 text-center md:text-left">
         <h1 className="text-4xl sm:text-5xl font-extrabold text-gray-900 leading-tight">
           Build Your Ideal <br />
-          <span className="bg-gradient-to-r from-orange-500 via-pink-500 to-purple-600 bg-clip-text text-transparent">
+          <span className="bg-linear-to-r from-orange-500 via-pink-500 to-purple-600 bg-clip-text text-transparent">
             Development Stack
           </span>
         </h1>
@@ -19,7 +20,7 @@ export const Hero: React.FC = () => {
         <div className="flex flex-wrap items-center justify-center md:justify-start gap-4 pt-2">
           <a
             href="#technologies"
-            className="px-6 py-3 rounded-xl bg-gradient-to-r from-orange-500 via-pink-500 to-purple-600 text-white font-medium text-sm shadow-md hover:opacity-95 transition-opacity"
+            className="px-6 py-3 rounded-xl bg-linear-to-r from-orange-500 via-pink-500 to-purple-600 text-white font-medium text-sm shadow-md hover:opacity-95 transition-opacity"
           >
             Explore Technologies
           </a>
@@ -32,7 +33,7 @@ export const Hero: React.FC = () => {
       {/* Right Banner Image */}
       <div className="flex-1 flex justify-center w-full">
         <img
-          src="../assets/banner-stack.png"
+          src={bannerImg}
           alt="Hero Banner"
           className="w-full max-w-md h-auto object-contain drop-shadow-sm"
         />
