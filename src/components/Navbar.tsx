@@ -18,10 +18,10 @@ export const Navbar: React.FC = () => {
 
                 {/* Logo */}
                 <div className="flex items-center gap-2">
-                    <div className="w-8 h-8 rounded-lg bg-gradient-to-r from-orange-500 via-pink-500 to-purple-600 flex items-center justify-center text-white font-bold text-sm">
+                    <div className="w-8 h-8 rounded-lg bg-linear-to-r from-orange-500 via-pink-500 to-purple-600 flex items-center justify-center text-white font-bold text-sm">
                         DS
                     </div>
-                    <span className="font-bold text-xl bg-gradient-to-r from-orange-500 via-pink-500 to-purple-600 bg-clip-text text-transparent">
+                    <span className="font-bold text-xl bg-linear-to-r from-orange-500 via-pink-500 to-purple-600 bg-clip-text text-transparent">
                         Dev Stack
                     </span>
                 </div>
@@ -50,7 +50,7 @@ export const Navbar: React.FC = () => {
                     <button className="text-gray-700 text-sm font-medium hover:text-purple-600">
                         Sign In
                     </button>
-                    <button className="px-4 py-2 text-sm text-white font-medium rounded-full bg-gradient-to-r from-orange-500 via-pink-500 to-purple-600 shadow-md hover:opacity-90 transition">
+                    <button className="px-4 py-2 text-sm text-white font-medium rounded-full bg-linear-to-r from-orange-500 via-pink-500 to-purple-600 shadow-md hover:opacity-90 transition">
                         Sign Up
                     </button>
                 </div>

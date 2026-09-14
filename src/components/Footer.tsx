@@ -6,10 +6,10 @@ export const Footer: React.FC = () => {
             <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
                 <div className="space-y-3">
                     <div className="flex items-center gap-2">
-                        <div className="w-7 h-7 rounded-lg bg-gradient-to-r from-orange-500 via-pink-500 to-purple-600 flex items-center justify-center text-white font-bold text-xs">
+                        <div className="w-7 h-7 rounded-lg bg-linear-to-r from-orange-500 via-pink-500 to-purple-600 flex items-center justify-center text-white font-bold text-xs">
                             DS
                         </div>
-                        <span className="font-bold text-lg bg-gradient-to-r from-orange-500 via-pink-500 to-purple-600 bg-clip-text text-transparent">
+                        <span className="font-bold text-lg bg-linear-to-r from-orange-500 via-pink-500 to-purple-600 bg-clip-text text-transparent">
                             Dev Stack
                         </span>
                     </div>

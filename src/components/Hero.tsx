@@ -6,7 +6,7 @@ export const Hero: React.FC = () => {
             <div className="flex-1 space-y-6">
                 <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight">
                     Build Your Ideal <br />
-                    <span className="bg-gradient-to-r from-orange-500 via-pink-500 to-purple-600 bg-clip-text text-transparent">
+                    <span className="bg-linear-to-r from-orange-500 via-pink-500 to-purple-600 bg-clip-text text-transparent">
                         Development Stack
                     </span>
                 </h1>
@@ -18,7 +18,7 @@ export const Hero: React.FC = () => {
                 <div className="flex gap-4">
                     <a
                         href="#technologies"
-                        className="px-6 py-3 rounded-xl bg-gradient-to-r from-orange-500 via-pink-500 to-purple-600 text-white font-medium shadow-lg hover:opacity-95 transition"
+                        className="px-6 py-3 rounded-xl bg-linear-to-r from-orange-500 via-pink-500 to-purple-600 text-white font-medium shadow-lg hover:opacity-95 transition"
                     >
                         Explore Technologies
                     </a>

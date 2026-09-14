@@ -27,7 +27,7 @@ export const StackSidebar: React.FC<StackSidebarProps> = ({ selectedStack, onRem
           No technologies selected yet.
         </div>
       ) : (
-        <div className="space-y-3 max-h-[500px] overflow-y-auto pr-1">
+        <div className="space-y-3 max-h-125 overflow-y-auto pr-1">
           {selectedStack.map((item) => (
             <div key={item.id} className="flex items-center justify-between p-3 bg-gray-50 rounded-xl border border-gray-100">
               <div className="flex items-center gap-3">
